@@ -1,0 +1,32 @@
+.hero__content{
+    position: relative;
+    height: 1173px;
+    background-image: url(../../img/hero/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__btn{
+    position: absolute;
+    bottom: 37px;
+    left: 24px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: var(--hero-btn);
+
+    &:hover{
+    background-color: var(--accent);
+
+    .hero__svg {
+        transform: rotate(-35deg);
+		transition: all 0.5s ease-in-out;
+        stroke: var(--page-bg);
+    }
+    }
+}
+
+.hero__svg{
+    z-index: 5;
+}

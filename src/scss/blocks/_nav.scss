@@ -1,0 +1,74 @@
+.nav {
+    display: flex;
+	flex-direction: row;
+	
+}
+
+.nav__lang {
+	width: 70%;
+	display: flex;
+	justify-content: end;
+	padding: 32px 32px 32px 0;
+	border-left:1px solid rgba(31, 77, 214, 0.7);
+	border-right:1px solid rgba(31, 77, 214, 0.7);
+}
+
+.nav__btn{
+	border-radius: 50%;
+	padding: 11px;
+
+	font-family: var(--second-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-color);
+
+
+	&:hover{
+		background-color: var(--accent);
+		color: var(--page-bg);
+		transition: all 0.5s ease-in-out;
+	}
+}
+
+
+
+.nav__link{
+	// width: 276px;
+	display: flex;
+	align-items: center;
+	padding-left: 32px;
+	padding-right: 40px;
+
+	font-family: inherit;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-color);
+
+&:hover{
+	color: var(--accent);
+
+	.nav__svg{
+		transform: rotate(90deg);
+		transition: all 0.5s ease-in-out;
+	}
+
+	.nav__svg circle {
+		stroke: #FF5733; /* Зміна кольору обведення кола при ховері */
+	  }
+	  
+	.nav__svg path {
+		fill: #FF5733; /* Зміна кольору заповнення шляху при ховері */
+	  }
+}
+}
+
+.link__text{
+	margin-right: 8px;
+}
+

@@ -1,0 +1,21 @@
+.header {
+	position: relative;
+	z-index: 199;
+
+	padding: 16px 0 0 0;
+
+	&__row {
+		display: flex;
+		border: 1px solid rgba(31, 77, 214, 0.7);
+		align-items: center;
+	}
+}
+
+
+.header__nav {
+	width: 72%;
+}
+
+.header__logo{
+    width: 28%;
+}
