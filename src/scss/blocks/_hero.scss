@@ -4,6 +4,12 @@
     background-image: url(../../img/hero/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: 1199px){
+        height: 733px;
+        background-image: url(../../img/hero/hero-mobile.jpg);
+        background-size: cover;
+    }
 }
 
 .hero__btn{
@@ -15,6 +21,14 @@
     border-radius: 50%;
     padding: 12px;
     background-color: var(--hero-btn);
+
+    @media screen and (max-width: 1199px){
+        bottom: 18px;
+    left: 16px;
+    width: 64px;
+    height: 64px;
+    padding: 8px;
+    }
 
     &:hover{
     background-color: var(--accent);

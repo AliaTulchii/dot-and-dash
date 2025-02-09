@@ -5,17 +5,29 @@
 	padding: 16px 0 0 0;
 
 	&__row {
+		max-width: 1470px;
+		margin: 0 auto;
 		display: flex;
 		border: 1px solid rgba(31, 77, 214, 0.7);
 		align-items: center;
+
+		@media screen and (max-width: 1199px)  {
+			max-width: 375px;
+			}
 	}
 }
 
 
 .header__nav {
 	width: 72%;
+	@media screen and (max-width: 1199px)  {
+		width: 58%;
+		}
 }
 
 .header__logo{
     width: 28%;
+	@media screen and (max-width: 1199px)  {
+		width: 42%;
+		}
 }

@@ -1,5 +1,9 @@
 .reach{
     margin-top: 120px;
+
+    @media screen and (max-width: 1199px){
+    margin-top: 80px;
+    }
 }
 
 .reach__content{
@@ -14,20 +18,43 @@ font-size: 56px;
 line-height: 110%;
 letter-spacing: -0.03em;
 color: var(--active);
+
+@media screen and (max-width: 1199px){
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 48px;
+line-height: 110%;
+}
 }
 
 .form__group{
     display: flex;
+    flex-direction: row;
     margin-bottom: 48px;
+
+    @media screen and (max-width: 1199px){
+    flex-direction: column;
+    }
 }
 
 .input__group{
     width: 50%;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
 
     &:not(:last-child){
         margin-right: 24px;
+
+        @media screen and (max-width: 1199px){
+        margin-right: 0;
+        margin-bottom: 32px;
+        }
+    }
+
+    @media screen and (max-width: 1199px){
+        width: 100%;
+        
     }
 }
 
@@ -38,6 +65,12 @@ font-size: 20px;
 line-height: 130%;
 letter-spacing: 0.02em;
 color: var(--active);
+
+@media screen and (max-width: 1199px){
+    font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+}
 }
 
 .form__input{
@@ -83,6 +116,10 @@ line-height: 130%;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: var(--active);
+
+@media screen and (max-width:1199px){
+font-size: 24px;
+}
 }
 
 .checkbox__group{
@@ -98,6 +135,10 @@ font-size: 18px;
 line-height: 130%;
 letter-spacing: 0.02em;
 color: var(--active);
+
+@media screen and (max-width:1199px){
+font-size: 16px;
+}
 }
 
 .checkbox__label:not(:last-child){
@@ -116,6 +157,11 @@ font-size: 18px;
 line-height: 130%;
 letter-spacing: 0.02em;
 color: var(--active);
+
+@media screen and (max-width: 1199px){
+font-weight: 500;
+font-size: 16px;
+}
 }
 
 .radio__group{
@@ -137,6 +183,10 @@ line-height: 130%;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: var(--white);
+
+@media screen and (max-width: 1199px){
+    font-size: 16px;
+}
 
     &:hover{
         background-color: var(--accent);
