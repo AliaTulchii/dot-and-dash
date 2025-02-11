@@ -66,8 +66,8 @@ function form() {
         });
 
         form.addEventListener("submit", function (event) {
-            event.preventDefault();
             validateForm();
+            // alert('Your mail was successfully submitted!')
 
             if (!submitButton.disabled) {
                 form.reset();
