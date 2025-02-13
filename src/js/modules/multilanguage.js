@@ -13,7 +13,20 @@ function multiLanguage(){
     let reachTitle = document.querySelector('.reach__title');
     let firstName = document.querySelector('.first-name');
     let lastName = document.querySelector('.last-name');
-
+    let phoneNumber = document.querySelector('.form-phone');
+    let messageForm = document.querySelector('.form-message');
+    let formTitle = document.querySelector('.form__title');
+    let branding = document.querySelector('.branding');
+    let commerce = document.querySelector('.commerce');
+    let corporate = document.querySelector('.corporate');
+    let landing = document.querySelector('.landing');
+    let formTextFirst = document.querySelector('.text-first');
+    let budgetFourth = document.querySelector('.budget-fourth');
+    let formTextSecond = document.querySelector('.text-second');
+    let asap = document.querySelector('.asap');
+    let monthFirst = document.querySelector('.month-first');
+    let monthSecond = document.querySelector('.month-second');
+    let formBtn = document.querySelector('.form__btn');
 
 
     link.forEach(el => {
@@ -45,6 +58,20 @@ function multiLanguage(){
         reachTitle.textContent = data[attr].reach.title;
         firstName.textContent = data[attr].reach.firstName;
         lastName.textContent = data[attr].reach.lastName;
+        phoneNumber.textContent = data[attr].reach.phone;
+        messageForm.textContent = data[attr].reach.message;
+        formTitle.textContent = data[attr].reach.formTitle;
+        branding.textContent = data[attr].reach.branding;
+        commerce.textContent = data[attr].reach.commerce;
+        corporate.textContent = data[attr].reach.corporate;
+        landing.textContent = data[attr].reach.landing;
+        formTextFirst.textContent = data[attr].reach.formTextFirst;
+        budgetFourth.textContent = data[attr].reach.budgetFourth;
+        formTextSecond.textContent = data[attr].reach.formTextSecond;
+        asap.textContent = data[attr].reach.asap;
+        monthFirst.textContent = data[attr].reach.monthFirst;
+        monthSecond.textContent = data[attr].reach.monthSecond;
+        formBtn.textContent = data[attr].reach.formBtn;
         })
     })
 
@@ -82,11 +109,11 @@ function multiLanguage(){
             budget01: "$1,000",
             budget02: "$1,000 - $2,000",
             budget03: "$2,000 - $3,000",
-            budget04: "$5,000 or more",
+            budgetFourth: "$5,000 or more",
             formTextSecond: "When would you like your product to be finished?",
             asap: "ASAP",
-            month01: "1-3 month",
-            month02: "2-4 month",
+            monthFirst: "1-3 month",
+            monthSecond: "2-4 month",
             formBtn: "Submit",
         }
         },
@@ -123,11 +150,11 @@ function multiLanguage(){
                 budget01: "$1,000",
                 budget02: "$1,000 - $2,000",
                 budget03: "$2,000 - $3,000",
-                budget04: "$5,000 lub więcej",
+                budgetFourth: "$5,000 lub więcej",
                 formTextSecond: "Kiedy chciałbyś/chciałabyś, aby Twój produkt był gotowy?",
                 asap: "Jak najszybciej (ASAP)",
-                month01: "1-3 miesiące",
-                month02: "2-4 miesiące",
+                monthFirst: "1-3 miesiące",
+                monthSecond: "2-4 miesiące",
                 formBtn: "Prześlij",
             }
         }

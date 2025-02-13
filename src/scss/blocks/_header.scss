@@ -11,22 +11,26 @@
 		border: 1px solid rgba(31, 77, 214, 0.7);
 		align-items: center;
 
-		@media screen and (max-width: 1199px)  {
+		@media screen and (max-width: 767px)  {
 			max-width: 375px;
 			}
+
+			@media screen and (max-width: 1199px)  {
+				max-width: 1199px;
+				}
 	}
 }
 
 
 .header__nav {
-	width: 72%;
+	width: 70%;
 	@media screen and (max-width: 1199px)  {
 		width: 58%;
 		}
 }
 
 .header__logo{
-    width: 28%;
+    width: 30%;
 	@media screen and (max-width: 1199px)  {
 		width: 42%;
 		}

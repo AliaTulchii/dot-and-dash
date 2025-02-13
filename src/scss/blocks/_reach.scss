@@ -67,12 +67,18 @@ line-height: 110%;
 }
 
 .form__label{
+    position: relative;
     font-family: var(--second-family);
 font-weight: 400;
 font-size: 20px;
 line-height: 130%;
 letter-spacing: 0.02em;
 color: var(--active);
+
+.label__snowflake{
+    position: absolute;
+    top: 2px;
+}
 
 @media screen and (max-width: 1199px){
     font-weight: 400;
@@ -139,6 +145,7 @@ color: var(--accent);
 }
 
 .form__title{
+    position: relative;
     margin-bottom: 24px;
     font-family: var(--second-family);
 font-weight: 600;
@@ -147,6 +154,11 @@ line-height: 130%;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: var(--active);
+
+.label__snowflake{
+    position: absolute;
+    top: 2px;
+}
 
 @media screen and (max-width:1199px){
 font-size: 24px;
@@ -252,6 +264,7 @@ font-size: 16px;
 
    
 .form__text{
+    position: relative;
     margin-bottom: 24px;
     font-family: var(--second-family);
 font-weight: 400;
@@ -259,6 +272,11 @@ font-size: 18px;
 line-height: 130%;
 letter-spacing: 0.02em;
 color: var(--active);
+
+.label__snowflake{
+    position: absolute;
+    top: 2px;
+}
 
 @media screen and (max-width: 1199px){
 font-weight: 500;
