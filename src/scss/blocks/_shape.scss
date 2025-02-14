@@ -1,6 +1,14 @@
 .shape__content{
-    display: flex;
+    display: block; /* або flex з align-self: flex-start */
+    min-height: 310vh;
     flex-direction: row;
+    clear: both;
+
+    &::before, ::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
 
     @media screen and (max-width: 1199px){
         flex-direction: column;
@@ -8,10 +16,13 @@
 }
 
 .left{
-    width: 50%;
+    position: sticky;
+    top: 1px; 
+    width: 50.15%;
     margin: 0;
     padding: 40px 24px 0 24px;
-    border-right: 1px solid rgba(31, 77, 214, 0.7);
+    background-color: var(--page-bg);
+    border-right: 2px solid rgba(31, 77, 214, 0.7);
 
     @media screen and (max-width: 1199px){
         margin: 0 auto;
@@ -66,11 +77,14 @@ color: var(--active);
     }
 }
 
-.right{    
+.right{ 
     width: 50%;
+    vertical-align: top;
+    float: right;
     margin: 0;
     padding: 56px 24px 0 38px ;
-    border-left: 1px solid rgba(31, 77, 214, 0.7);
+    border-left: 2px solid rgba(31, 77, 214, 0.7);
+
 
     @media screen and (max-width: 1199px){
         width: 100%;
