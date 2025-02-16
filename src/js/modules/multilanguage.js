@@ -81,10 +81,10 @@ function multiLanguage(){
 
         shape:{
             leftTitle: "Shape your brand’s  future",
-            leftText: "Tell us about your goals and schedule a free consultation. <br/> Fill out the form and take the first step toward <br> transforming your business.",
-            rightTitleFirst: "Looking to captivate your audience with <br> stunning visuals?",
+            leftText: "Tell us about your goals and schedule a free consultation.  Fill out the form and take the first step toward  transforming your business.",
+            rightTitleFirst: "Looking to captivate your audience with  stunning visuals?",
             rightTextFirst: "Our team specializes in creating aesthetically pleasing branding assets, including custom website designs and marketing materials. Whether it’s a sleek website or a compelling brand story, we’ll ensure your business leaves a lasting impression.",
-            rightTitleSecond:"Stay ahead in your industry with <br> innovative digital solutions.",
+            rightTitleSecond:"Stay ahead in your industry with  innovative digital solutions.",
             rightTextSecond:"We’ll help you establish your authority by designing professional webinar platforms, dynamic branding, and impactful promotional materials. Share your expertise with the world and gain new customers while enhancing your online presence.",
             rightTitleThird: "Is your brand in need of a fresh start?",
             rightTextThird: "Let us redefine your vision with a comprehensive strategy. From crafting a bold, modern brand identity to building a user-friendly website, we’ll provide all the tools you need to stand out in the digital space and achieve your goals.",
