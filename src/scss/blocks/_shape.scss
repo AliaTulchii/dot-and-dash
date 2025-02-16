@@ -1,6 +1,6 @@
 .shape__content{
     display: block; /* або flex з align-self: flex-start */
-    min-height: 310vh;
+    min-height: 260vh;
     flex-direction: row;
     clear: both;
 
@@ -12,6 +12,7 @@
 
     @media screen and (max-width: 1199px){
         flex-direction: column;
+    min-height: 225vh;
     }
 }
 
@@ -82,7 +83,8 @@ color: var(--active);
     vertical-align: top;
     float: right;
     margin: 0;
-    padding: 56px 24px 0 38px ;
+    margin-top: -320px;
+    padding: 0 24px 0 38px ;
     border-left: 2px solid rgba(31, 77, 214, 0.7);
 
 
