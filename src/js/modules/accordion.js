@@ -1,6 +1,4 @@
 function accordion (){
-
-
 	const btns = document.querySelectorAll('.mobile-links__parent-btn');
 
 	btns.forEach(function(btn){

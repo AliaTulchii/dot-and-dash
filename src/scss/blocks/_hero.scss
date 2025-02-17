@@ -1,5 +1,8 @@
+
+
 .hero__content{
     position: relative;
+    overflow: visible;
     height: 1173px;
     background-image: url(../../img/hero/hero.jpg);
     background-repeat: no-repeat;
@@ -12,19 +15,28 @@
     }
 }
 
+
+
 .hero__btn{
-    position: absolute;
-    bottom: 37px;
-    left: 24px;
+    display: inline-block;
     width: 96px;
     height: 96px;
+    position: sticky;
+    top: 85%;
+    left: 5%;
+    margin-bottom: 24px;
+    
     border-radius: 50%;
     padding: 12px;
     background-color: var(--hero-btn);
+    // opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 
-    @media screen and (max-width: 1199px){
-        bottom: 18px;
-    left: 16px;
+    @media screen and (max-width: 1199px){  
+        top: 90%;
+        left:8%;
+    margin-bottom: 20px;
+
     width: 64px;
     height: 64px;
     padding: 8px;
@@ -41,6 +53,17 @@
     }
 }
 
+.hero__btn-fixed{
+    
+    // opacity: 1;
+    
+}
+
+// .hero__btn:not(.hero__btn-fixed) {
+//     opacity: 0;
+//     pointer-events: none;
+// }
+
 .hero__svg{
-    z-index: 5;
+    // z-index: 5;
 }
