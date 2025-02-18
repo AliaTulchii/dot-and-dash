@@ -65,14 +65,13 @@ function form() {
             }
         });
 
+        
         form.addEventListener("submit", function (event) {
             validateForm();
-            // alert('Your mail was successfully submitted!')
-
             if (!submitButton.disabled) {
-                form.reset();
-                submitButton.disabled = true;
+                return; 
             }
+            event.preventDefault();
         });
 
         submitButton.disabled = true;
